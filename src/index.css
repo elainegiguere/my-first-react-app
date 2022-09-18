@@ -1,0 +1,101 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root{
+  --dark-blue: #0d1a2e;
+  --card-blue: #15273f;
+  --turquoise: #0dcccb;
+  --text-blue: #566a88;
+}
+
+body{
+  background-color: var(--dark-blue);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  width: 50%;
+  height: 80%;
+  border-radius:10px;
+  background-color: var(--card-blue);
+}
+h1,p{
+  padding-right:5%;
+  padding-left: 5%;
+  padding-bottom:5%;
+
+}
+h1{
+  font-weight:400;
+  font-size: 1.5rem;
+  color:#fff;  
+}
+
+p{
+  color: var(--text-blue);
+}
+
+img.featuredImage {
+  width: 100%;
+  padding: 5%;
+}
+
+.row{ 
+  display:flex;
+  padding-left: 5%;
+}
+
+h4{
+  padding-left: 2%;
+  color: var(--turquoise);
+}
+.red{
+  color: red;
+}
+
+.blue{
+  color: rgb(51, 0, 255);
+}
+
+img.clock {
+  width: 20%;
+  height: 100%;
+}
+
+.col {
+  width: 50%;
+  display: flex;
+}
+
+.line{
+  border-bottom: solid var(--text-blue) 1px;
+  margin: 10px;
+  
+}
+.borderBlue{
+  background-color: #0dcccb;
+  border-radius: 50%;
+  width:20%;
+  height: auto;
+  margin: 10px;
+}
+
+.borderwhite{
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.credits{
+width: 166%
+}
+
+
+/* comment donner 2 class name à mon Avatar
+pourquoi mon deuxième on click ne marche pas. Et comment faire pour que mon onclick crée un alert avec une autre message? */
